@@ -1,3 +1,5 @@
+> Changes: Prosemirror *marks* can only contain *marks* defined in the schema after them, so by order. In this fork, all *marks* can contain each other, but you still can use *marks* ´excludes´ attribute, to exclude some.
+
 # prosemirror-model
 
 [ [**WEBSITE**](https://prosemirror.net) | [**ISSUES**](https://github.com/prosemirror/prosemirror/issues) | [**FORUM**](https://discuss.prosemirror.net) | [**CHANGELOG**](https://github.com/ProseMirror/prosemirror-model/blob/master/CHANGELOG.md) ]
