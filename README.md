@@ -1,6 +1,10 @@
 > Changes:  
-> In this fork, all *marks* can contain each other. And you still can use *marks* `excludes` attribute, to exclude others.  
+> In this fork, all *marks* can contain each other, without splitting the marks. (`excludes` attribute still available)  
 > Originally Prosemirror *marks* can only contain *marks* defined in the schema after them.
+> 
+> Before: \<strong>This\</strong>\<em>\<strong> is valid \</strong>\</em>\<strong>HTML\</strong>
+> 
+> Now: \<strong>This\<em> is valid \</em>HTML\</strong>  
 
 # prosemirror-model
 
