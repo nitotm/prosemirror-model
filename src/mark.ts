@@ -102,7 +102,7 @@ export class Mark {
     if (!marks || Array.isArray(marks) && marks.length == 0) return Mark.none
     if (marks instanceof Mark) return [marks]
     let copy = marks.slice()
-    copy.sort((a, b) => a.type.rank - b.type.rank)
+    // copy.sort((a, b) => a.type.rank - b.type.rank)
     return copy
   }
 
