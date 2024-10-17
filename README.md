@@ -1,4 +1,4 @@
-> Changes: Prosemirror *marks* can only contain *marks* defined in the schema after them, so by order. In this fork, all *marks* can contain each other, but you still can use *marks* ´excludes´ attribute, to exclude some.
+> Changes: Prosemirror *marks* can only contain *marks* defined in the schema after them. In this fork, all *marks* can contain each other, but you still can use *marks* ´excludes´ attribute, to exclude some.
 
 # prosemirror-model
 
