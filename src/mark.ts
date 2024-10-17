@@ -31,11 +31,11 @@ export class Mark {
       } else if (other.type.excludes(this.type)) {
         return set
       } else {
-        if (!placed && other.type.rank > this.type.rank) {
+      /*  if (!placed && other.type.rank > this.type.rank) {
           if (!copy) copy = set.slice(0, i)
           copy.push(this)
           placed = true
-        }
+        } */
         if (copy) copy.push(other)
       }
     }
